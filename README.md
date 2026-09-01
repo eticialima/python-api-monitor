@@ -1,4 +1,4 @@
-# HTTPX + Rich + Asyncio Demo
+# Python Monitor example with HTTPX + Rich + Asyncio
 
 A small Python project that checks multiple URLs concurrently.
 
