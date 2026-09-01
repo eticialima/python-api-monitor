@@ -1,0 +1,23 @@
+[project]
+name = "httpx-rich-asyncio-demo"
+version = "0.1.0"
+description = "Async URL checker using httpx, rich and asyncio"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115",
+    "httpx>=0.27",
+    "python-multipart>=0.0.9",
+    "rich>=13.7",
+    "uvicorn>=0.30",
+]
+
+[project.scripts]
+webcheck = "webcheck.main:main"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

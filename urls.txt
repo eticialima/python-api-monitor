@@ -1,0 +1,4 @@
+# One URL per line. Empty lines and comments are ignored.
+https://example.com
+https://python.org
+https://httpbin.org/status/404
